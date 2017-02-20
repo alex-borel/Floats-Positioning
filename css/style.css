@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("MyriadProRegular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    height: 2000px;
+    font-family: 'MyriadProRegular', sans-serif;
+}
+
+.page {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    width: 519px;
+    height: 746px;
+    position: absolute;
+    left: 50%;
+}
+
+.one {
+    background-color: #ebebeb;
+    top: 200px;
+    left: 50%;
+    margin-left: -260px;
+    z-index: 3;
+}
+
+.two {
+    background-color: #cccccc;
+    top: 220px;
+    margin-left: -240px;
+    z-index: 2;
+}
+
+.three {
+    background-color: #acacac;
+    top: 240px;
+    margin-left: -220px;
+    z-index: 1;
+}
+
+.tab {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #f68e56;
+    position: absolute;
+    width: 107px;
+    height: 31px;
+    left: 495px;
+    top: 40px;
+}
+
+.greenTab {
+    background-color: #39b54a;
+    width: 95px;
+    left: 472px;
+    top: 43px;
+}
+
+.blueTab {
+    background-color: #00aeef;
+    width: 95px;
+    left: 440px;
+    top: 48px;
+}
+
+section.top {
+    margin-top: 40px;
+    margin-left: 33px;
+    width: 455px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cup {
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.designer {
+    margin-left: 5px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+p.textTop {
+    font-size: 12px;
+}
+
+p.mid {
+    margin-top: -15px;
+}
+
+section.top:after, .section.bot:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+section.bot {
+    width: 456px;
+    height: 230px;
+    margin-top: 17px;
+    margin-left: 33px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.lime {
+    margin-top: 15px;
+}
+
+.pink {
+    margin-top: 15px;
+}
+
+footer {
+    width: 440px;
+    height: 20px;
+    font-size: 9px;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 42px;
+}
+
+.share {
+    border-width: 1px;
+    border-color: #362f2d;
+    border-style: solid;
+    background-color: #fbaf5d;
+    width: 87px;
+    height: 63px;
+    position: fixed;
+    z-index: 4;
+    bottom: 2px;
+    left: 100%;
+    margin-left: -90px;
+    padding-top: 7px;
+}
+
+span.text {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.social {
+    margin-top: 8px;
+    margin-left: 6px;
+}
